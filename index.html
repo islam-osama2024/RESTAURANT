@@ -28,7 +28,10 @@
         <div class="menu-toggle" id="menu-toggle">☰</div>
         <ul class="nav-list" id="nav-list">
             <li><a href="#home">Home</a></li>
+            <li><a class="disabled" aria-disabled="true">About <small>(soon)</small></a></li>
             <li><a href="#menu">Menu</a></li>
+            <li><a class="disabled" aria-disabled="true">Gallery <small>(soon)</small></a></li>
+            <li><a class="disabled" aria-disabled="true">Blog <small>(soon)</small></a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
@@ -41,7 +44,7 @@
             <p>We're the best restaurant in town</p>
             <div class="btns">
                 <a class="btns-one" href="#menu">Learn More</a>
-                <a href="#contact">Book A Visit</a>
+                <a href="#contact">Find Us</a>
             </div>
         </div>
     </div>
@@ -99,11 +102,16 @@
                 <h2>French Restaurant</h2>
                 <p>CHICKEN DRUMSTICKS</p>
             </div>
+            <div class="footer-map">
+                <h4>موقعنا</h4>
+                <p class="demo-note">الخريطة غير متاحة في هذه النسخة التجريبية.</p>
+            </div>
             <div class="footer-subscribe">
                 <h4>اشترك في كل اخبار المكان</h4>
-                <form>
+                <form onsubmit="return false">
                     <input type="email" placeholder="ادخل بريدك الإلكتروني" required />
                     <button type="submit">اشترك</button>
+                    <p class="demo-note">نموذج تجريبي: الاشتراك غير مفعّل حاليًا ولن يتم إرسال بريدك لأي جهة.</p>
                 </form>
             </div>
         </div>
