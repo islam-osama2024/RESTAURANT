@@ -335,3 +335,20 @@ body {
         padding: 0 16px;
     }
 }
+
+/* demo/unavailable markers */
+.nav-list a.disabled {
+    opacity: 0.55;
+    cursor: default;
+    pointer-events: none;
+}
+.nav-list a.disabled small {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.demo-note {
+    font-size: 12px;
+    opacity: 0.75;
+    margin-top: 8px;
+}
