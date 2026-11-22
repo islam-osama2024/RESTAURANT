@@ -327,3 +327,11 @@ body {
     font-size: 2rem;
 }
 
+
+
+@media (max-width: 768px) {
+    .home .caption p {
+        font-size: 1.35rem;
+        padding: 0 16px;
+    }
+}
