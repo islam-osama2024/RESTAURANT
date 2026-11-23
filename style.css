@@ -352,6 +352,9 @@ body {
     opacity: 0.75;
     margin-top: 8px;
 }
+.demo-note a {
+    color: #c1ab84;
+}
 
 /* Saveur brand + new sections */
 .rest-hero-logo {
