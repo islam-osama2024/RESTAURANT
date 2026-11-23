@@ -135,10 +135,10 @@
             </div>
             <div class="footer-subscribe">
                 <h4>اشترك في كل اخبار المكان</h4>
-                <form onsubmit="return false">
-                    <input type="email" placeholder="ادخل بريدك الإلكتروني" required />
+                <form action="https://buttondown.com/api/emails/embed-subscribe/saveur" method="post">
+                    <input type="email" name="email" placeholder="ادخل بريدك الإلكتروني" required />
                     <button type="submit">اشترك</button>
-                    <p class="demo-note">نموذج تجريبي: الاشتراك غير مفعّل حاليًا ولن يتم إرسال بريدك لأي جهة.</p>
+                    <p class="demo-note">هيوصلك إيميل لتأكيد اشتراكك الأول. النشرة تابعة لمشروع تجريبي، وتقدر تلغي اشتراكك في أي وقت. <a href="https://buttondown.com/refer/saveur" target="_blank" rel="noopener">Powered by Buttondown</a></p>
                 </form>
             </div>
         </div>
