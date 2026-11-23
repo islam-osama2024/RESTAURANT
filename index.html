@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <title>French Restaurant | Islam Osama</title>
-    <meta name="description" content="Restaurant landing page with menu, gallery and contact sections - front-end practice project by Islam Osama.">
-    <meta property="og:title" content="French Restaurant | Islam Osama">
-    <meta property="og:description" content="Restaurant landing page with menu, gallery and contact sections - front-end practice project by Islam Osama.">
+    <title>Saveur | Islam Osama</title>
+    <meta name="description" content="Saveur - a French restaurant concept site with about, menu, gallery and contact sections - front-end practice project by Islam Osama.">
+    <meta property="og:title" content="Saveur | Islam Osama">
+    <meta property="og:description" content="Saveur - a French restaurant concept site with about, menu, gallery and contact sections - front-end practice project by Islam Osama.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://islam-osama2024.github.io/RESTAURANT/">
     <meta property="og:image" content="https://islam-osama2024.github.io/Portfolio/img/projects/restaurant.jpg">
@@ -23,14 +23,15 @@
     <!-- Navbar -->
     <header class="navbar2">
         <div class="logo">
-            <span>RESTAURANT</span>
+            <svg class="rest-logo-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="14" fill="#b45309"/><path d="M16 42a16 16 0 0 1 32 0z" fill="#fff7ed"/><rect x="13" y="46" width="38" height="4" rx="2" fill="#fff7ed"/><circle cx="32" cy="22" r="3.5" fill="#fff7ed"/></svg>
+            <span class="rest-logo-word">Saveur</span>
         </div>
         <div class="menu-toggle" id="menu-toggle">☰</div>
         <ul class="nav-list" id="nav-list">
             <li><a href="#home">Home</a></li>
-            <li><a class="disabled" aria-disabled="true">About <small>(soon)</small></a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
-            <li><a class="disabled" aria-disabled="true">Gallery <small>(soon)</small></a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a class="disabled" aria-disabled="true">Blog <small>(soon)</small></a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -39,9 +40,9 @@
     <!-- Hero Section -->
     <div class="home" id="home">
         <div class="caption">
-            <img src="./images/restaurant.png" alt="restaurant">
-            <h1>French Restaurant</h1>
-            <p>We're the best restaurant in town</p>
+            <img src="./images/restaurant.png" alt="Saveur restaurant emblem">
+            <h1>Saveur</h1>
+            <p>French flavors, made to be shared</p>
             <div class="btns">
                 <a class="btns-one" href="#menu">Learn More</a>
                 <a href="#contact">Find Us</a>
@@ -51,6 +52,19 @@
 
     <!-- Outdoor Section -->
     <div class="out-door"></div>
+
+    <!-- About Section -->
+    <section class="rest-about" id="about">
+        <div class="rest-about-inner">
+            <div class="rest-about-text">
+                <h2>About Saveur</h2>
+                <p>Saveur is a French kitchen concept built around one simple idea: good food, carefully made, brings people together.</p>
+                <p>Every plate starts with fresh ingredients and classic French technique, and ends the way a meal should, shared around a table.</p>
+                <p class="demo-note">Saveur is a demo brand created for this front-end project.</p>
+            </div>
+            <img class="rest-about-img" src="./images/chef-2.jpg" alt="A chef in a white uniform with crossed arms" loading="lazy">
+        </div>
+    </section>
 
     <!-- Menu Section -->
     <div class="item2" id="menu">
@@ -80,6 +94,19 @@
         </div>
     </div>
 
+    <!-- Gallery Section -->
+    <section class="rest-gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class="rest-gallery-grid">
+            <img src="./images/rigel-food-sec-2-img3-200x200.jpg" alt="Roasted chicken pieces in a pan" loading="lazy">
+            <img src="./images/rigel-food-sec-2-img4-200x200.jpg" alt="A rustic bread sandwich with olives" loading="lazy">
+            <img src="./images/rigel-food-sec-2-img5-200x200.jpg" alt="A chicken and rice plate with peppers" loading="lazy">
+            <img src="./images/rigel-food-sec-2-img1-200x200.jpg" alt="Seasoned chicken drumsticks" loading="lazy">
+            <img src="./images/bg.jpg" alt="A steak board with pickles and bread on a dark table" loading="lazy">
+            <img src="./images/chef-2.jpg" alt="A chef in a white uniform with crossed arms" loading="lazy">
+        </div>
+    </section>
+
     <!-- Navbar - Bottom -->
     <nav class="navbar">
         <div class="navbar-left">
@@ -99,7 +126,7 @@
     <footer class="footer" id="contact">
         <div class="footer-container">
             <div class="footer-logo">
-                <h2>French Restaurant</h2>
+                <h2>Saveur</h2>
                 <p>CHICKEN DRUMSTICKS</p>
             </div>
             <div class="footer-map">
@@ -120,7 +147,7 @@
     ↑
 </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 French Restaurant. جميع الحقوق محفوظة.</p>
+            <p>&copy; 2025 Saveur. جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 
